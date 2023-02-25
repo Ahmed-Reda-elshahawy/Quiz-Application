@@ -1,0 +1,50 @@
+[
+    {
+        "Question" : "What is CSS ?",
+        "answer_1":"CSS is a style sheet language",
+        "answer_2":"CSS is designed to separate the presentation and content, including layout, colors, and fonts",
+        "answer_3":"CSS is the language used to style the HTML documents",
+        "answer_4":"All of the mentioned",
+        "right_answer":"All of the mentioned"
+    },
+    {
+        "Question" : "Which of the following tag is used to embed css in html page ?",
+        "answer_1":"<css>",
+        "answer_2":"<!DOCTYPE html>",
+        "answer_3":"<script>",
+        "answer_4":"<style>",
+        "right_answer":"<style>"
+    },
+    {
+        "Question" : "Which of the following CSS selectors are used to specify a group of elements ?",
+        "answer_1":"tag",
+        "answer_2":"id",
+        "answer_3":"class",
+        "answer_4":"both class and tag",
+        "right_answer":"class"
+    },
+    {
+        "Question" : "Which of the following has introduced text, list, box, margin, border, color, and background properties ?",
+        "answer_1":"HTML",
+        "answer_2":"PHP",
+        "answer_3":"CSS",
+        "answer_4":"Ajax",
+        "right_answer":"CSS"
+    },
+    {
+        "Question" : "Which of the following CSS framework is used to create a responsive design ?",
+        "answer_1":"django",
+        "answer_2":"rails",
+        "answer_3":"larawell",
+        "answer_4":"bootstrap",
+        "right_answer":"bootstrap"
+    },
+    {
+        "Question" : "Which of the following CSS selector is used to specify a rule to bind a particular unique element ?",
+        "answer_1":"tag",
+        "answer_2":"id",
+        "answer_3":"class",
+        "answer_4":"both class and tag",
+        "right_answer":"id"
+    }
+]

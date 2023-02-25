@@ -1,0 +1,50 @@
+[
+    {
+        "Question" : "What is HTML ?",
+        "answer_1":"HTML describes the structure of a webpage",
+        "answer_2":"HTML is the standard markup language mainly used to create web pages",
+        "answer_3":"HTML consists of a set of elements that helps the browser how to view the content",
+        "answer_4":"All of the mentioned",
+        "right_answer":"All of the mentioned"
+    },
+    {
+        "Question" : "Who is the father of HTML ?",
+        "answer_1":"Rasmus Lerdorf",
+        "answer_2":"Tim Berners-Lee",
+        "answer_3":"Brendan Eich",
+        "answer_4":"Sergey Brin",
+        "right_answer":"Tim Berners-Lee"
+    },
+    {
+        "Question" : "HTML stands for ?",
+        "answer_1":"HyperText Markup Language",
+        "answer_2":"HyperText Machine Language",
+        "answer_3":"HyperText Marking Language",
+        "answer_4":"HighText Marking Language",
+        "right_answer":"HyperText Markup Language"
+    },
+    {
+        "Question" : "What is the correct syntax of doctype in HTML5 ?",
+        "answer_1":"</doctype html>",
+        "answer_2":"<doctype html>",
+        "answer_3":"<doctype html!>",
+        "answer_4":"<!doctype html>",
+        "right_answer":"<!doctype html>"
+    },
+    {
+        "Question" : "Which of the following is used to read an HTML page and render it ?",
+        "answer_1":"Web server",
+        "answer_2":"Web network",
+        "answer_3":"Web browser",
+        "answer_4":"Web matrix",
+        "right_answer":"Web browser"
+    },
+    {
+        "Question" : "Which of the following is not a difference between HTML and XHTML ?",
+        "answer_1":"Charset in both html and xhtml is “text/html”",
+        "answer_2":"Tags and attributes are case-insensitive in HTML but not in XHTML",
+        "answer_3":"Special characters must be escaped using character entities in XHTML unlike HTML",
+        "answer_4":"Charset in html is “text/html” where as in xhtml it is “application/xml+xhtml”",
+        "right_answer":"Charset in both html and xhtml is “text/html”"
+    }
+]

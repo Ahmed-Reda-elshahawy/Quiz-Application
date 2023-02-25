@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./Css/all.min.css">
+    <link rel="stylesheet" href="./Css/normalize.css">
+    <link rel="stylesheet" href="./Css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,500;0,700;1,400&display=swap"
+        rel="stylesheet">
+    <title>Quiz App</title>
+</head>
+
+<body>
+    <div class="quiz-app">
+        <div class="container">
+            <div class="Quiz">
+                <div class="quiz-info">
+                    <div class="Category">
+                        <label for="category">Category:</label>
+                        <select name="category" id="category">
+                            <option value="html">Html</option>
+                            <option value="css">Css</option>
+                            <option value="js">JS</option>
+                        </select>
+                    </div>
+                    <div class="count">Questions count : <span></span></div>
+                </div>
+                <div class="start">
+                    <button class="btn-start">Start</button>
+                    <div class="q-aria hide">
+                        <div class="questoin"></div>
+                        <div class="answer-area"></div>
+                        <button class="btn-submit" type="submit">Start Quiz</button>
+                        <div class="bullets-time">
+                            <div class="spans"></div>
+                            <div class="time"></div>
+                        </div>
+                        <div class="result"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="./JS/progect.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,50 @@
+[
+    {
+        "Question" : "What is JavaScript ?",
+        "answer_1":"JavaScript is a scripting language used to make the website interactive",
+        "answer_2":"JavaScript is an assembly language used to make the website interactive",
+        "answer_3":"JavaScript is a compiled language used to make the website interactive",
+        "answer_4":"None of the mentioned",
+        "right_answer":"JavaScript is a scripting language used to make the website interactive"
+    },
+    {
+        "Question" : "Which of the following is correct about JavaScript ?",
+        "answer_1":"JavaScript is an Object-Based language",
+        "answer_2":" JavaScript is Assembly-language",
+        "answer_3":"JavaScript is an Object-Oriented language",
+        "answer_4":"JavaScript is a High-level language",
+        "right_answer":"JavaScript is an Object-Based language"
+    },
+    {
+        "Question" : "Among the given statements, which statement defines closures in JavaScript ?",
+        "answer_1":"JavaScript is a function that is enclosed with references to its inner function scope",
+        "answer_2":"JavaScript is a function that is enclosed with references to its lexical environment",
+        "answer_3":"JavaScript is a function that is enclosed with the object to its inner function scope",
+        "answer_4":"None of the mentioned",
+        "right_answer":"JavaScript is a function that is enclosed with references to its lexical environment"
+    },
+    {
+        "Question" : "Which of the following is not javascript data types ?",
+        "answer_1":"Null type",
+        "answer_2":"Undefined type",
+        "answer_3":"Number type",
+        "answer_4":"All of the mentioned",
+        "right_answer":"All of the mentioned"
+    },
+    {
+        "Question" : "Where is Client-side JavaScript code is embedded within HTML documents ?",
+        "answer_1":"A URL that uses the special javascript:code",
+        "answer_2":"A URL that uses the special javascript:protocol",
+        "answer_3":"A URL that uses the special javascript:encoding",
+        "answer_4":"A URL that uses the special javascript:stack",
+        "right_answer":"A URL that uses the special javascript:protocol"
+    },
+    {
+        "Question" : "Which of the following object is the main entry point to all client-side JavaScript features and APIs ?",
+        "answer_1":"Position",
+        "answer_2":"Window",
+        "answer_3":"Standard",
+        "answer_4":"Location",
+        "right_answer":"Window"
+    }
+]

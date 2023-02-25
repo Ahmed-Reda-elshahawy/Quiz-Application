@@ -1,0 +1,176 @@
+:root {
+    --main-color: #75818c;
+    --color: white;
+    --section-bg: #eef2f3;
+}
+
+* {
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    background-image: url(../Images/bg4.jpg);
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+}
+
+
+/* ===== media queries ===== */
+.container {
+    padding: 0 10px;
+    margin: 0 auto;
+}
+
+@media(min-width:576px) {
+    .container {
+        width: 540px;
+    }
+}
+
+@media(min-width:768px) {
+    .container {
+        width: 750px;
+    }
+}
+
+@media(min-width:992px) {
+    .container {
+        width: 970px;
+    }
+}
+
+@media(min-width:1200px) {
+    .container {
+        width: 1170px;
+    }
+}
+
+/* ===== Quiz ===== */
+.Quiz {
+    background-color: var(--main-color);
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 5px;
+}
+
+.Quiz .quiz-info {
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--section-bg);
+    padding: 20px;
+}
+
+.Quiz .Category {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.Quiz .Category #category {
+    border-radius: 5px;
+}
+
+.Quiz .answer-area {
+    line-height: 1.9;
+    font-weight: bold;
+    padding-bottom: 20px;
+    border-bottom: 2px solid white;
+}
+
+.Quiz .answer-area input {
+    margin-right: 10px;
+}
+
+.Quiz .answer-area input[type="Radio"]+label {
+    cursor: pointer;
+}
+
+.Quiz .answer-area input[type="Radio"]:checked+label {
+    color: #47C4E5;
+}
+
+.Quiz .btn-submit {
+    background-color: #47C4E5;
+    color: white;
+    border: none;
+    outline: none;
+    padding: 10px;
+    display: block;
+    width: 100%;
+    margin: 20px auto;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.Quiz .btn-submit:hover {
+    transform: scale(1.015);
+}
+
+.Quiz .bullets-time {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.Quiz .bullets-time .spans {
+    display: flex;
+    gap: 10px;
+}
+
+.Quiz .bullets-time .spans span {
+    display: block;
+    width: 15px;
+    height: 15px;
+    background-color: var(--section-bg);
+    border-radius: 50%;
+}
+
+.Quiz .bullets-time .spans>.on {
+    background-color: #47C4E5;
+}
+
+.Quiz .result {
+    background-color: var(--section-bg);
+    padding: 10px;
+    text-align: center;
+}
+
+.Quiz .result span {
+    font-weight: bold;
+}
+
+.Quiz .result span.perfect {
+    color: #47C4E5;
+}
+
+.Quiz .result span.good {
+    color: darkcyan;
+}
+
+.Quiz .result span.bad {
+    color: brown;
+}
+
+.Quiz .start .btn-start {
+    display: block;
+    padding: 10px 20px;
+    margin: 20px auto 0;
+    background-color: #47C4E5;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.Quiz .start .q-aria.hide {
+    display: none;
+}
+
+.Quiz .start .btn-start.hide {
+    display: none;
+}
